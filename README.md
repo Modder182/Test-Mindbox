@@ -8,6 +8,7 @@
       
 </pre>
 
+<h4>SQL код запроса к БД</h4>
 <pre>SELECT [ProductName], count(ProductName) as Days
 FROM [Magazine].[Sales] cnt
       INNER JOIN (
